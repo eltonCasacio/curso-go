@@ -6,7 +6,7 @@ import (
 	"os"
 )
 
-func main() {
+func Buffer() {
 	f, err := os.Open("arquivo.txt")
 	if err != nil {
 		panic(err)

@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func main() {
+func CreateFile() {
 	f, err := os.Create("arquivo.txt")
 	if err != nil {
 		panic(err)

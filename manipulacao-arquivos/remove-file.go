@@ -2,7 +2,7 @@ package main
 
 import "os"
 
-func main() {
+func RemoveFile() {
 	f, err := os.Create("remove.txt")
 	if err != nil {
 		panic(err)

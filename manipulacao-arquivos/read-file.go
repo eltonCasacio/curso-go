@@ -2,7 +2,7 @@ package main
 
 import "os"
 
-func main() {
+func ReadFile() {
 	arquivo, err := os.ReadFile("arquivo.txt")
 	if err != nil {
 		panic(err)

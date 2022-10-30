@@ -1,0 +1,16 @@
+##########   DOCKER   ##########
+    COMANDO  terminal                                      OQ FAZ
+docker-compose up -d                            levanta o container e deixa rodando em background
+docker-compose down                             "mata" o container
+docker-compose ps                               lista todos os containers em execucao
+docker-compose ps -a                            lista todos os containers, inclusive os que nao estao em execucao
+docker-compose exec <nome-container> bash       entra no container  <nome-container>
+docker-compose exec mysql bash                  entra no container mysql
+
+
+
+
+##########   MYSQL   ##########
+    COMANDO  terminal                                       OQ FAZ
+mysql -u<user> -p <MYSQL_DATABASE>              "entra no terminal" do mysql
+mysql -uroot -p goexpert                        "entra no terminal" do mysql
